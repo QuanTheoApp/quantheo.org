@@ -10,7 +10,7 @@ export const Route = createFileRoute('/about')({
 // The litany of labels. Each is something the self is named by, paired with
 // the gentle reminder that the name is not the thing.
 const LABELS = [
-  'There is a state of consciousness which sees all this change, and then there is another state of consciousness completely un-associated with change. Each has its own philosophy. That is why we can't think of only one philosophy; we must be open to different understandings and experiences. Stories change; reality is change with changing consciousness.',
+  'There is a state of consciousness which sees all this change, and then there is another state of consciousness completely un-associated with change. Each has its own philosophy. That is why we cant think of only one philosophy; we must be open to different understandings and experiences.  change; reality is change with changing consciousness.,
 ]
 
 function About() {
