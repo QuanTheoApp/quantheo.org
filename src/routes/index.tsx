@@ -261,7 +261,7 @@ function Awakening() {
         </section>
 
         {/* ── Reach out ── */}
-        <WhatsAppReach note="If anything here speaks to you, you are welcome to reach out directly on WhatsApp. (GNT+7)" />
+        <WhatsAppReach note="If anything here speaks to you, you are welcome to reach out directly on WhatsApp. (GMT+7)" />
       </main>
 
       <footer className="foot">
