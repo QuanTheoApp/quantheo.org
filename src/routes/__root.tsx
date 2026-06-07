@@ -11,7 +11,7 @@ export const Route = createRootRoute({
       { name: 'color-scheme', content: 'dark' },
       { name: 'theme-color', content: '#14100d' },
       { name: 'google-adsense-account', content: 'ca-pub-1146764090010119' },
-      {
+      { 
         name: 'description',
         content:
           'A space for spiritual exploration and reflection — free from religious affiliation, with no doctrine and no destination. An invitation to a direct, immediate encounter with what is already present within you.',
@@ -53,7 +53,6 @@ function RootDocument({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
         <HeadContent />
-        <meta name="google-site-verification" content="yiNL1VW0gbAHwQDnc4CWW6FyHbqV9Qg3VmHddKnegv0" />
       </head>
       <body>
         <SiteNav />
