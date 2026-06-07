@@ -72,7 +72,7 @@ function Donate() {
               style={{ '--reveal-delay': '320ms' }}
             >
               The first one-on-one video session is offered at no cost. A
-              donation is warmly encouraged, never required &mdash; give only
+              donation is encouraged but never required &mdash; give only
               what feels right to you.
             </p>
             <Plate
@@ -97,7 +97,7 @@ function Donate() {
               style={{ '--reveal-delay': '120ms', marginTop: '1.8rem' }}
             >
               Should you feel called to a follow-up session, it is offered at a
-              fixed price of <strong>299 USD per session</strong>, lasting up to
+              fixed price of <strong>$299 USD per session</strong>, lasting up to
               two hours.
             </p>
             <p data-reveal style={{ '--reveal-delay': '180ms' }}>
