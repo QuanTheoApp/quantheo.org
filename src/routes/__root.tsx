@@ -46,7 +46,35 @@ export const Route = createRootRoute({
     ],
   }),
   shellComponent: RootDocument,
+  errorComponent: ErrorView,
 })
+
+// A calm, on-brand fallback shown if any page fails to render, instead of the
+// framework's raw "Something went wrong!" crash. The moment stays unbroken.
+function ErrorView() {
+  return (
+    <>
+      <div className="atmosphere" aria-hidden="true" />
+      <div className="grain" aria-hidden="true" />
+
+      <main className="shell">
+        <section className="hero">
+          <div className="measure">
+            <span className="eyebrow">A pause</span>
+            <h1>Something interrupted the stillness.</h1>
+            <p className="lede">
+              This page could not be shown just now. Nothing is lost &mdash;
+              return to the beginning and breathe.
+            </p>
+            <a className="foot-link" href="/">
+              Return to the beginning
+            </a>
+          </div>
+        </section>
+      </main>
+    </>
+  )
+}
 
 function RootDocument({ children }: { children: React.ReactNode }) {
   return (
