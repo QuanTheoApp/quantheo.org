@@ -63,8 +63,8 @@ function About() {
               <figcaption className="portrait-label">I am</figcaption>
             </figure>
             <h3 data-reveal style={{ '--reveal-delay': '180ms' }}>
-             I am neither a guru, nor a master, nor a teacher. I do not claim to possess a truth that must be transmitted, nor do I offer a learning path to which you must commit for months or years. Everything you could name about me is true, and yet not one of
-              those names is what I am. I am here, yet I am <em>none of the labels.</em>
+            I am that which is aware of thoughts, feelings, perceptions, and sensations. Thoughts arise and pass. Feelings arise and pass. Perceptions arise and pass. Sensations arise and pass. Yet the awareness in which they appear remains. I am that awareness.
+            I am neither a guru, nor a master, nor a teacher. I do not claim to possess a truth that must be transmitted, nor do I offer a learning path to which you must commit for months or years.
             </h3>
             <p
               className="lede"
