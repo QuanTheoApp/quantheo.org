@@ -130,7 +130,7 @@ function Donate() {
         </section>
 
         {/* ── Reach out ── */}
-        <WhatsAppReach note="Questions before you give? You are welcome to reach out directly on WhatsApp.(GMT+7)" />
+        <WhatsAppReach note="Questions before you give? You are welcome to reach out directly on WhatsApp. (GMT+7)" />
       </main>
 
       <footer className="foot">
