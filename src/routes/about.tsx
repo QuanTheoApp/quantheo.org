@@ -10,7 +10,7 @@ export const Route = createFileRoute('/about')({
 // The litany of labels. Each is something the self is named by, paired with
 // the gentle reminder that the name is not the thing.
 const LABELS = [
-  'I am neither a guru, nor a master, nor a teacher. I do not claim to possess a truth that must be transmitted, nor do I offer a learning path to which you must commit for months or years.',
+  'Welcome',
 ]
 
 function About() {
@@ -95,8 +95,7 @@ function About() {
         <section className="closing">
           <div className="measure">
             <p className="lead-line" data-reveal>
-              What I truly am cannot be held by a name, a form, a role, a
-              belief, a history, or any definition.
+              I am neither a guru, nor a master, nor a teacher. I do not claim to possess a truth that must be transmitted, nor do I offer a learning path to which you must commit for months or years. .
             </p>
             <p
               className="lead-line"
