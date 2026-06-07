@@ -63,9 +63,7 @@ function Awakening() {
                 feeling, every sensation, every perception &mdash; before the
                 sense of who you are. It has stayed through each success and
                 each failure, beneath every belief and every doubt. It has
-                never aged, never evolved, never become more or less itself.
-              </p>
-              <p className="invocation-ask">
+                never aged, never evolved, never become more or less itself. 
                 Can you recognize which experience this is?
               </p>
             </div>
