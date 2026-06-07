@@ -10,9 +10,6 @@ export const Route = createFileRoute('/about')({
 // The litany of labels. Each is something the self is named by, paired with
 // the gentle reminder that the name is not the thing.
 const LABELS = [
-  'I am called Thierry, yet the name is only a label I happen to wear.',
-  'I appear as male, yet that is only a gender.',
-  'My age counts the years, yet it is only a number.',
   'I am neither a guru, nor a master, nor a teacher. I do not claim to possess a truth that must be transmitted, nor do I offer a learning path to which you must commit for months or years.',
 ]
 
