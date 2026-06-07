@@ -1,4 +1,4 @@
-# Already Here
+# QuanTheo
 
 A single-page, contemplative website devoted to spiritual exploration and reflection — free from religious affiliation, with no doctrine to adopt and no destination to reach. The site presents a quiet, slowly unfolding invitation: rather than a path to walk for months or years, it offers the possibility of an immediate, direct encounter with what is already present within the visitor.
 
