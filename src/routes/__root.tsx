@@ -16,8 +16,8 @@ export const Route = createRootRoute({
         content:
           'A space for spiritual exploration and reflection — free from religious affiliation, with no doctrine and no destination. An invitation to a direct, immediate encounter with what is already present within you.',
       },
-      { title: 'Already Here — A Space for Awakening' },
-      { property: 'og:title', content: 'Already Here — A Space for Awakening' },
+      { title: 'QuanTheo - I Am Aware — A Single Session Awakening' },
+      { property: 'og:title', content: 'QuanTheo - I Am Aware — A Single Session Awakening' },
       {
         property: 'og:description',
         content:
