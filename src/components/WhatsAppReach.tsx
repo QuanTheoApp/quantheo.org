@@ -7,8 +7,8 @@
 const WHATSAPP_NUMBER = '66888253534'
 
 export function WhatsAppReach({
-  eyebrow = 'If you wish to speak',
-  note = 'You are welcome to reach out directly on WhatsApp.',
+  eyebrow = 'If you wish to speak to me',
+  note = 'You are welcome to reach out directly on WhatsApp. (GMT+7)',
 }: {
   eyebrow?: string
   note?: string
