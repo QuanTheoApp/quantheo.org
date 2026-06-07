@@ -92,15 +92,7 @@ function About() {
         <section className="closing">
           <div className="measure">
             <p className="lead-line" data-reveal>
-           </p>
-            <p
-              className="lead-line"
-              data-reveal
-              style={{ '--reveal-delay': '160ms', marginTop: '1.6rem' }}
-            >
-              Names may change. Descriptions may fall away.{' '}
-              <em>Yet that which is aware of them all remains.</em>
-            </p>
+           </p>    
             <Plate
               src="/awareness-eye.webp"
               alt="A single open eye at the centre of the frame, quietly aware"
