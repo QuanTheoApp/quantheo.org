@@ -73,7 +73,7 @@ function Donate() {
             >
               The first one-on-one video session via WhatsApp is offered at no cost. A
               donation is encouraged but never required &mdash; give only
-              what feels right to you. A single session is generaly enough to get it fully.
+              what feels right to you. A single session is generally enough to get it fully.
             </p>
             <Plate
               src="/awareness-heads.webp"
