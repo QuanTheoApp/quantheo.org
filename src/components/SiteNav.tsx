@@ -12,19 +12,18 @@ export function SiteNav() {
         </Link>
         <div className="nav-links">
           <Link
-            to="/"
-            className="nav-link"
-            activeOptions={{ exact: true }}
-            activeProps={{ className: 'nav-link is-current' }}
-          >
-            Home
-          </Link>
-          <Link
             to="/about"
             className="nav-link"
             activeProps={{ className: 'nav-link is-current' }}
           >
             About
+          </Link>
+          <Link
+            to="/theo"
+            className="nav-link"
+            activeProps={{ className: 'nav-link is-current' }}
+          >
+            Theo
           </Link>
           <Link
             to="/donate"
