@@ -306,6 +306,25 @@ section {
   margin: 0;
 }
 
+/* ── Theo: a plain letter — one voice, one size, even spacing ── */
+.letter-page {
+  padding-block: clamp(4rem, 10vh, 7rem);
+}
+
+.letter p {
+  margin: 0 0 1rem;
+  font-family: var(--body);
+  font-weight: 340;
+  font-size: 1.18rem;
+  line-height: 1.78;
+  letter-spacing: 0.003em;
+  color: var(--parchment-dim);
+}
+
+.letter p:last-child {
+  margin-bottom: 0;
+}
+
 /* ── The disavowal: a quiet declaration set off by a rule ── */
 .declaration {
   border-top: 1px solid var(--hair);
