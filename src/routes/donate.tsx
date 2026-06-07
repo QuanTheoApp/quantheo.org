@@ -63,15 +63,15 @@ function Donate() {
             >
               Support this work
             </span>
-            <h1 data-reveal style={{ '--reveal-delay': '180ms' }}>
+            <h1 data-reveal style={{ '--reveal-delay': '50ms' }}>
               The first session is <em>freely given.</em>
             </h1>
             <p
               className="lede"
               data-reveal
-              style={{ '--reveal-delay': '320ms' }}
+              style={{ '--reveal-delay': '100ms' }}
             >
-              The first one-on-one video session is offered at no cost. A
+              The first one-on-one video session via WhatsApp is offered at no cost. A
               donation is encouraged but never required &mdash; give only
               what feels right to you.
             </p>
@@ -94,7 +94,7 @@ function Donate() {
             </span>
             <p
               data-reveal
-              style={{ '--reveal-delay': '120ms', marginTop: '1.8rem' }}
+              style={{ '--reveal-delay': '50ms', marginTop: '1.8rem' }}
             >
               Should you feel called to a follow-up session, it is offered at a
               fixed price of <strong>$299 USD per session</strong>, lasting up to
@@ -116,7 +116,7 @@ function Donate() {
             <p
               className="lead-line"
               data-reveal
-              style={{ '--reveal-delay': '120ms', marginTop: '1.8rem' }}
+              style={{ '--reveal-delay': '50ms', marginTop: '1.8rem' }}
             >
               Donations may be sent in any of the following currencies.
             </p>
