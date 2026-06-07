@@ -70,7 +70,7 @@ function About() {
               data-reveal
               style={{ '--reveal-delay': '320ms' }}
             >
-              Everything you could name about me is true, and yet not one of
+              I am neither a guru, nor a master, nor a teacher. I do not claim to possess a truth that must be transmitted, nor do I offer a learning path to which you must commit for months or years Everything you could name about me is true, and yet not one of
               those names is what I am.
             </p>
           </div>
@@ -95,7 +95,7 @@ function About() {
         <section className="closing">
           <div className="measure">
             <p className="lead-line" data-reveal>
-              I am neither a guru, nor a master, nor a teacher. I do not claim to possess a truth that must be transmitted, nor do I offer a learning path to which you must commit for months or years. .
+              Welcome. .
             </p>
             <p
               className="lead-line"
