@@ -63,8 +63,8 @@ function About() {
               <figcaption className="portrait-label">I am</figcaption>
             </figure>
             <h3 data-reveal style={{ '--reveal-delay': '180ms' }}>
-            I am that which is aware of thoughts, feelings, perceptions, and sensations. Thoughts arise and pass. Feelings arise and pass. Perceptions arise and pass. Sensations arise and pass. Yet the awareness in which they appear remains. I am that awareness.
-            I am neither a guru, nor a master, nor a teacher. I do not claim to possess a truth that must be transmitted, nor do I offer a learning path to which you must commit for months or years.
+            I am "That" which is aware of thoughts, feelings, perceptions, and sensations.
+            I am neither a teacher, nor a master, nor a guru. I do not claim to possess a truth that must be transmitted, nor do I offer a learning path to which you must commit for months or years.
             </h3>
             <p
               className="lede"
@@ -95,7 +95,7 @@ function About() {
         <section className="closing">
           <div className="measure">
             <p className="lead-line" data-reveal>
-              QuanTheo
+              There is a state of consciousness which sees all this change, and then there is another state of consciousness completely un-associated with change. Each has its own philosophy. That is why we can't think of only one philosophy; we must be open to different understandings and experiences. Stories change; reality is change with changing consciousness.
             </p>
             <p
               className="lead-line"
