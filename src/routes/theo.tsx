@@ -1,5 +1,4 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { useEffect } from 'react'
 import { WhatsAppReach } from '@/components/WhatsAppReach'
 
 export const Route = createFileRoute('/theo')({
@@ -58,30 +57,6 @@ const LETTER = [
 ]
 
 function Theo() {
-  // Reveal the letter as it enters the viewport — mirrors the other pages.
-  useEffect(() => {
-    const targets = Array.from(
-      document.querySelectorAll<HTMLElement>('[data-reveal]'),
-    )
-    if (!('IntersectionObserver' in window)) {
-      targets.forEach((el) => el.classList.add('is-visible'))
-      return
-    }
-    const observer = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('is-visible')
-            observer.unobserve(entry.target)
-          }
-        }
-      },
-      { threshold: 0.15, rootMargin: '0px 0px -6% 0px' },
-    )
-    targets.forEach((el) => observer.observe(el))
-    return () => observer.disconnect()
-  }, [])
-
   return (
     <>
       <div className="atmosphere" aria-hidden="true" />
@@ -90,7 +65,7 @@ function Theo() {
       <main className="shell">
         {/* ── The letter: one size, one voice, even spacing ── */}
         <section className="letter-page">
-          <div className="measure letter" data-reveal>
+          <div className="measure letter">
             {LETTER.map((line, i) => (
               <p key={i}>{line}</p>
             ))}
