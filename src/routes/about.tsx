@@ -10,7 +10,7 @@ export const Route = createFileRoute('/about')({
 // The litany of labels. Each is something the self is named by, paired with
 // the gentle reminder that the name is not the thing.
 const LABELS = [
-  'Welcome',
+  'I Am Awareness',
 ]
 
 function About() {
@@ -95,7 +95,7 @@ function About() {
         <section className="closing">
           <div className="measure">
             <p className="lead-line" data-reveal>
-              Welcome.
+              QuanTheo
             </p>
             <p
               className="lead-line"
