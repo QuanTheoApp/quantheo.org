@@ -19,13 +19,6 @@ export function SiteNav() {
             About
           </Link>
           <Link
-            to="/theo"
-            className="nav-link"
-            activeProps={{ className: 'nav-link is-current' }}
-          >
-            Theo
-          </Link>
-          <Link
             to="/donate"
             className="nav-link"
             activeProps={{ className: 'nav-link is-current' }}
