@@ -17,8 +17,8 @@ function UFO() {
     setFade(false)
     setTimeout(() => {
       setCurrent(index)
-      setFade(true)
-    }, 350)
+      setFade(false)
+    }, 0)
   }
 
   useEffect(() => {
