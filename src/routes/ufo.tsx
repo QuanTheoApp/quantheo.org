@@ -10,7 +10,7 @@ const INTERVAL_MS = 500
 
 function UFO() {
   const [current, setCurrent] = useState(0)
-  const [fade, setFade] = useState(true)
+  const [fade, setFade] = useState(false)
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const goTo = (index: number) => {
