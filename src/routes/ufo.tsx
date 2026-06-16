@@ -6,7 +6,7 @@ export const Route = createFileRoute('/ufo')({
 })
 
 const SLIDES = ['/01.jpg', '/02.jpg', '/04.jpg', '/04.jpg', '/05.jpg', '/06.jpg']
-const INTERVAL_MS = 1000
+const INTERVAL_MS = 1500
 
 function UFO() {
   const [current, setCurrent] = useState(0)
