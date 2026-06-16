@@ -5,7 +5,7 @@ export const Route = createFileRoute('/ufo')({
   component: UFO,
 })
 
-const SLIDES = ['/01.jpg', '/02.jpg', '/03.jpg', '/04.jpg', '/05.jpg', '/06.jpg']
+const SLIDES = ['/01.jpg', '/02.jpg', '/04.jpg', '/04.jpg', '/05.jpg', '/06.jpg']
 const INTERVAL_MS = 1000
 
 function UFO() {
