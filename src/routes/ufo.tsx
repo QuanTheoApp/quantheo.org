@@ -42,7 +42,7 @@ function UFO() {
       setCurrent(prev => {
         const next = (prev + 1) % SLIDES.length
         setFade(false)
-        setTimeout(() => setFade(false), 0)
+        setTimeout(() => setFade(true), 1)
         return next
       })
     }, INTERVAL_MS)
