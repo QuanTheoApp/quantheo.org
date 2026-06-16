@@ -10,7 +10,7 @@ const INTERVAL_MS = 1000
 
 function UFO() {
   const [current, setCurrent] = useState(0)
-  const [fade, setFade] = useState(false)
+  const [fade, setFade] = useState(true)
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const goTo = (index: number) => {
@@ -26,7 +26,7 @@ function UFO() {
       setCurrent(prev => {
         const next = (prev + 1) % SLIDES.length
         setFade(false)
-        setTimeout(() => setFade(false), 0)
+        setTimeout(() => setFade(true), 50)
         return next
       })
     }, INTERVAL_MS)
@@ -41,7 +41,7 @@ function UFO() {
     timerRef.current = setInterval(() => {
       setCurrent(prev => {
         const next = (prev + 1) % SLIDES.length
-        setFade(false)
+        setFade(true)
         setTimeout(() => setFade(true), 1)
         return next
       })
