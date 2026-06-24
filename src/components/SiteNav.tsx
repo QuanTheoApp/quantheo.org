@@ -18,13 +18,14 @@ export function SiteNav() {
           >
             About
           </Link>
-          <Link
-            to="/donate"
+          <a
+            href="https://quantheo.etsy.com"
             className="nav-link"
-            activeProps={{ className: 'nav-link is-current' }}
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Donate
-          </Link>
+            Guided Meditation
+          </a>
         </div>
       </div>
     </nav>
