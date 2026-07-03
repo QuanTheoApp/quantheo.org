@@ -441,6 +441,10 @@ section {
 }
 
 @keyframes breathe {
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
   0%, 100% { transform: scale(0.82); opacity: 0.55; }
   50% { transform: scale(1.12); opacity: 1; }
 }
@@ -749,7 +753,7 @@ section {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
+  animation: fadeIn 0.2s ease-out;
   right: 0;
   z-index: 30;
   min-width: 180px;
