@@ -30,48 +30,31 @@ export function SiteNav() {
               aria-haspopup="true"
             >
               Menu
-              <span className="dropdown-arrow">{isMenuOpen ? '▲' : '▼'}</span>
+              <span className="dropdown-arrow">{isMenuOpen ? '\u25b2' : '\u25bc'}</span>
             </button>
             {isMenuOpen && (
               <div className="dropdown-menu">
                 <Link
-                  to="/theo"
+                  to="/guided-meditation"
                   className="dropdown-item"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Theo
-                </Link>
-                <Link
-                  to="/passages"
-                  className="dropdown-item"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Passages
-                </Link>
-                <Link
-                  to="/contrast"
-                  className="dropdown-item"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Contrast
-                </Link>
-                <Link
-                  to="/closing"
-                  className="dropdown-item"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Closing
-                </Link>
-                <hr className="dropdown-divider" />
-                <a
-                  href="https://quantheo.etsy.com"
-                  className="dropdown-item"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Guided Meditation
-                </a>
+                </Link>
+                <Link
+                  to="/videos"
+                  className="dropdown-item"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Videos
+                </Link>
+                <Link
+                  to="/essays"
+                  className="dropdown-item"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Essays
+                </Link>
               </div>
             )}
           </div>
