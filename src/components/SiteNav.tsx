@@ -18,14 +18,6 @@ export function SiteNav() {
           >
             About
           </Link>
-          <a
-            href="https://quantheo.etsy.com"
-            className="nav-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Guided Meditation
-          </a>
         </div>
       </div>
     </nav>
