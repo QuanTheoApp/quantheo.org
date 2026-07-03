@@ -712,6 +712,80 @@ section {
 .nav-link.is-current {
   color: var(--dawn);
 }
+/* Dropdown menu styles */
+.nav-dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--body);
+  font-weight: 500;
+  font-size: 0.7rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--muted);
+  transition: color 0.4s ease;
+}
+
+.dropdown-toggle:hover {
+  color: var(--dawn);
+}
+
+.dropdown-arrow {
+  font-size: 0.55rem;
+  color: var(--muted);
+  transition: color 0.4s ease;
+}
+
+.dropdown-toggle:hover .dropdown-arrow {
+  color: var(--dawn);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 30;
+  min-width: 180px;
+  padding: 0.8rem 0;
+  margin-top: 0.4rem;
+  background: linear-gradient(180deg, rgba(20, 16, 13, 0.95) 0%, rgba(20, 16, 13, 0.98) 100%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid var(--hair-strong);
+  border-radius: 10px;
+  box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(231, 181, 119, 0.05);
+}
+
+.dropdown-item {
+  display: block;
+  padding: 0.7rem 1.2rem;
+  font-family: var(--body);
+  font-weight: 400;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--parchment-dim);
+  text-decoration: none;
+  transition: color 0.3s ease, background 0.3s ease;
+}
+
+.dropdown-item:hover {
+  color: var(--dawn-soft);
+  background: rgba(231, 181, 119, 0.08);
+}
+
+.dropdown-divider {
+  margin: 0.6rem 0;
+  border: 0;
+  border-top: 1px solid var(--hair);
+}
 
 /* ── About: portrait in a circular frame ── */
 .portrait {
