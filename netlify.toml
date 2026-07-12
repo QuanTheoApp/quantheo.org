@@ -1,6 +1,13 @@
 [build]
   command = "vite build"
   publish = "dist/client"
+
+[[redirects]]
+  from = "/"
+  to = "https://www.quantheo.ai"
+  status = 301
+  force = true
+
 [dev]
   command = "npm run dev"
   targetPort = 3000
